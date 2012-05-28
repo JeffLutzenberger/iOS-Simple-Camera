@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC9095431574089C009D671D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9095421574089C009D671D /* UIKit.framework */; };
+		BC9095451574089C009D671D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9095441574089C009D671D /* Foundation.framework */; };
+		BC9095471574089C009D671D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9095461574089C009D671D /* CoreGraphics.framework */; };
+		BC90954D1574089C009D671D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC90954B1574089C009D671D /* InfoPlist.strings */; };
+		BC90954F1574089C009D671D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC90954E1574089C009D671D /* main.m */; };
+		BC9095531574089C009D671D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9095521574089C009D671D /* AppDelegate.m */; };
+		BC9095561574089C009D671D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9095541574089C009D671D /* MainStoryboard.storyboard */; };
+		BC9095591574089C009D671D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9095581574089C009D671D /* ViewController.m */; };
+		BC9095611574089C009D671D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9095601574089C009D671D /* SenTestingKit.framework */; };
+		BC9095621574089C009D671D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9095421574089C009D671D /* UIKit.framework */; };
+		BC9095631574089C009D671D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9095441574089C009D671D /* Foundation.framework */; };
+		BC90956B1574089C009D671D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC9095691574089C009D671D /* InfoPlist.strings */; };
+		BC90956E1574089C009D671D /* SimpleCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC90956D1574089C009D671D /* SimpleCameraTests.m */; };
+		BC909578157408AF009D671D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC909577157408AF009D671D /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC9095641574089C009D671D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC9095351574089C009D671D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC90953D1574089C009D671D;
+			remoteInfo = SimpleCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC90953E1574089C009D671D /* SimpleCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9095421574089C009D671D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC9095441574089C009D671D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC9095461574089C009D671D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC90954A1574089C009D671D /* SimpleCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleCamera-Info.plist"; sourceTree = "<group>"; };
+		BC90954C1574089C009D671D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC90954E1574089C009D671D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC9095501574089C009D671D /* SimpleCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleCamera-Prefix.pch"; sourceTree = "<group>"; };
+		BC9095511574089C009D671D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC9095521574089C009D671D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC9095551574089C009D671D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BC9095571574089C009D671D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC9095581574089C009D671D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC90955F1574089C009D671D /* SimpleCameraTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCameraTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9095601574089C009D671D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC9095681574089C009D671D /* SimpleCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleCameraTests-Info.plist"; sourceTree = "<group>"; };
+		BC90956A1574089C009D671D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC90956C1574089C009D671D /* SimpleCameraTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleCameraTests.h; sourceTree = "<group>"; };
+		BC90956D1574089C009D671D /* SimpleCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleCameraTests.m; sourceTree = "<group>"; };
+		BC909577157408AF009D671D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC90953B1574089C009D671D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC909578157408AF009D671D /* MobileCoreServices.framework in Frameworks */,
+				BC9095431574089C009D671D /* UIKit.framework in Frameworks */,
+				BC9095451574089C009D671D /* Foundation.framework in Frameworks */,
+				BC9095471574089C009D671D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC90955B1574089C009D671D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9095611574089C009D671D /* SenTestingKit.framework in Frameworks */,
+				BC9095621574089C009D671D /* UIKit.framework in Frameworks */,
+				BC9095631574089C009D671D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC9095331574089C009D671D = {
+			isa = PBXGroup;
+			children = (
+				BC909577157408AF009D671D /* MobileCoreServices.framework */,
+				BC9095481574089C009D671D /* SimpleCamera */,
+				BC9095661574089C009D671D /* SimpleCameraTests */,
+				BC9095411574089C009D671D /* Frameworks */,
+				BC90953F1574089C009D671D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC90953F1574089C009D671D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC90953E1574089C009D671D /* SimpleCamera.app */,
+				BC90955F1574089C009D671D /* SimpleCameraTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC9095411574089C009D671D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC9095421574089C009D671D /* UIKit.framework */,
+				BC9095441574089C009D671D /* Foundation.framework */,
+				BC9095461574089C009D671D /* CoreGraphics.framework */,
+				BC9095601574089C009D671D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC9095481574089C009D671D /* SimpleCamera */ = {
+			isa = PBXGroup;
+			children = (
+				BC9095511574089C009D671D /* AppDelegate.h */,
+				BC9095521574089C009D671D /* AppDelegate.m */,
+				BC9095541574089C009D671D /* MainStoryboard.storyboard */,
+				BC9095571574089C009D671D /* ViewController.h */,
+				BC9095581574089C009D671D /* ViewController.m */,
+				BC9095491574089C009D671D /* Supporting Files */,
+			);
+			path = SimpleCamera;
+			sourceTree = "<group>";
+		};
+		BC9095491574089C009D671D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC90954A1574089C009D671D /* SimpleCamera-Info.plist */,
+				BC90954B1574089C009D671D /* InfoPlist.strings */,
+				BC90954E1574089C009D671D /* main.m */,
+				BC9095501574089C009D671D /* SimpleCamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC9095661574089C009D671D /* SimpleCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC90956C1574089C009D671D /* SimpleCameraTests.h */,
+				BC90956D1574089C009D671D /* SimpleCameraTests.m */,
+				BC9095671574089C009D671D /* Supporting Files */,
+			);
+			path = SimpleCameraTests;
+			sourceTree = "<group>";
+		};
+		BC9095671574089C009D671D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC9095681574089C009D671D /* SimpleCameraTests-Info.plist */,
+				BC9095691574089C009D671D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC90953D1574089C009D671D /* SimpleCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9095711574089C009D671D /* Build configuration list for PBXNativeTarget "SimpleCamera" */;
+			buildPhases = (
+				BC90953A1574089C009D671D /* Sources */,
+				BC90953B1574089C009D671D /* Frameworks */,
+				BC90953C1574089C009D671D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCamera;
+			productName = SimpleCamera;
+			productReference = BC90953E1574089C009D671D /* SimpleCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC90955E1574089C009D671D /* SimpleCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9095741574089C009D671D /* Build configuration list for PBXNativeTarget "SimpleCameraTests" */;
+			buildPhases = (
+				BC90955A1574089C009D671D /* Sources */,
+				BC90955B1574089C009D671D /* Frameworks */,
+				BC90955C1574089C009D671D /* Resources */,
+				BC90955D1574089C009D671D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC9095651574089C009D671D /* PBXTargetDependency */,
+			);
+			name = SimpleCameraTests;
+			productName = SimpleCameraTests;
+			productReference = BC90955F1574089C009D671D /* SimpleCameraTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC9095351574089C009D671D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BC9095381574089C009D671D /* Build configuration list for PBXProject "SimpleCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC9095331574089C009D671D;
+			productRefGroup = BC90953F1574089C009D671D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC90953D1574089C009D671D /* SimpleCamera */,
+				BC90955E1574089C009D671D /* SimpleCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC90953C1574089C009D671D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC90954D1574089C009D671D /* InfoPlist.strings in Resources */,
+				BC9095561574089C009D671D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC90955C1574089C009D671D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC90956B1574089C009D671D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC90955D1574089C009D671D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC90953A1574089C009D671D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC90954F1574089C009D671D /* main.m in Sources */,
+				BC9095531574089C009D671D /* AppDelegate.m in Sources */,
+				BC9095591574089C009D671D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC90955A1574089C009D671D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC90956E1574089C009D671D /* SimpleCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC9095651574089C009D671D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC90953D1574089C009D671D /* SimpleCamera */;
+			targetProxy = BC9095641574089C009D671D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC90954B1574089C009D671D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC90954C1574089C009D671D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC9095541574089C009D671D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9095551574089C009D671D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		BC9095691574089C009D671D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC90956A1574089C009D671D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC90956F1574089C009D671D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC9095701574089C009D671D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC9095721574089C009D671D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleCamera/SimpleCamera-Prefix.pch";
+				INFOPLIST_FILE = "SimpleCamera/SimpleCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC9095731574089C009D671D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleCamera/SimpleCamera-Prefix.pch";
+				INFOPLIST_FILE = "SimpleCamera/SimpleCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC9095751574089C009D671D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleCamera.app/SimpleCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleCamera/SimpleCamera-Prefix.pch";
+				INFOPLIST_FILE = "SimpleCameraTests/SimpleCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BC9095761574089C009D671D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleCamera.app/SimpleCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleCamera/SimpleCamera-Prefix.pch";
+				INFOPLIST_FILE = "SimpleCameraTests/SimpleCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC9095381574089C009D671D /* Build configuration list for PBXProject "SimpleCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC90956F1574089C009D671D /* Debug */,
+				BC9095701574089C009D671D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9095711574089C009D671D /* Build configuration list for PBXNativeTarget "SimpleCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9095721574089C009D671D /* Debug */,
+				BC9095731574089C009D671D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC9095741574089C009D671D /* Build configuration list for PBXNativeTarget "SimpleCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9095751574089C009D671D /* Debug */,
+				BC9095761574089C009D671D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC9095351574089C009D671D /* Project object */;
+}
